@@ -1,0 +1,32 @@
+button{
+    height: 30px;
+    width: 100px;
+    border: 1px dashed blue;
+    background: white;
+    font: bold Arial;
+    color: #28d547;
+    cursor: pointer;
+}
+
+.Kinder{
+    height: 40px;
+    width: 60px;
+    border: 1px solid black;
+}
+.Kinder:first-child{
+    background-color: red;
+}
+
+.Kinder:nth-child(2){
+    background-color: blue;
+}
+
+.Kinder:nth-child(3){
+    background-color: green;
+}
+
+.Kinder,span{
+    height: 40px;
+    width: 60px;
+    border: 1px solid black;
+}
